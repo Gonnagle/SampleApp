@@ -1,6 +1,8 @@
-source https://www.myget.org/F/nugetbuild/api/v3/index.json
-source https://www.nuget.org/api/v2/
-framework >= net452
+redirects: on
+framework: auto-detect
+copy_local: true
+
+source https://api.nuget.org/v3/index.json
 
 nuget bootstrap 3.0.0
 nuget Knockout.Validation 1.0.1
