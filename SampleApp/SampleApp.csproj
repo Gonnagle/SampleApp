@@ -145,7 +145,31 @@
       <Paket>True</Paket>
     </Content>
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery-1.10.2-vsdoc.js">
+    <Content Include="Scripts\jquery-3.1.1-vsdoc.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.min.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.min.map">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.slim.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\knockout-3.4.0.debug.js">
+      <Paket>True</Paket>
+    </Content>
+    <Content Include="Scripts\knockout-3.4.0.js">
       <Paket>True</Paket>
     </Content>
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
@@ -181,18 +205,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="Scripts\jquery-1.10.2.min.js">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="Scripts\knockout-2.3.0.debug.js">
-      <Paket>True</Paket>
-    </Content>
-    <Content Include="Scripts\knockout-2.3.0.js">
-      <Paket>True</Paket>
-    </Content>
     <Content Include="Scripts\knockout.validation.debug.js">
       <Paket>True</Paket>
     </Content>
@@ -271,9 +283,6 @@
     </Content>
     <Content Include="paket.references" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map">
-      <Paket>True</Paket>
-    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
